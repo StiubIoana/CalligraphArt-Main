@@ -1,0 +1,1 @@
+var ptoggle = document.getElementById("project-toggler");function toggleSlide(x) {if (x.matches) { // If media query matchesptoggle.classList.toggle("slide");} else{ptoggle.classList.toggle("slide");}  }var x = window.matchMedia("(max-width: 700px)");toggleSlide(x); // Call listener function at run timex.addListener(toggleSlide); // Attach listener function on state changes
